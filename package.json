@@ -5,7 +5,8 @@
   "main": "test.js",
   "scripts": {
     "test": "mocha test.js",
-    "postinstall": "node postinstall.js"
+    "postinstall": "node postinstall.js",
+    "start": "node src/index.js"
   },
   "engines": {
     "node": "<=14"
